@@ -21,7 +21,7 @@ try {
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/telegram-logistics-app/',
+  base: '/tg_menu_v2/',
   define: {
     __APP_VERSION__: JSON.stringify(version),
   },
